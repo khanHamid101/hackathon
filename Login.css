@@ -1,0 +1,94 @@
+.login-Container{
+    height: 100vh;
+    width: 100%;
+    
+}
+.login-sub-Container{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    /* width: 90vw; */
+    margin: 30px;
+    justify-content: center;
+    align-items: center;    
+    background-image: url(https://image.freepik.com/free-photo/doctor-nurse-wearing-protection-suit-fighting-covid-19-coronavirus-with-white-background-medical-worker-wearing-protective-gloves_1212-2148.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: rgba(8, 8, 247, 0.473);
+    box-shadow:  1px 7px 9px blue;
+
+}
+.main{
+    background-color: rgba(8, 8, 247, 0.473); 
+    position: relative;
+    z-index: 2;
+    height: 120%;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-self: center;
+    
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+input{
+    width: 350px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.92;
+    background-color: none;
+    border-bottom: solid darkblue 6px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+button{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 60px;
+}
+button:hover{
+    background-color: black;
+}
+/* .login-sub-Container input, .login-sub-Container button{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    position: relative;
+    bottom: 30vh;
+    z-index: 2;
+} */
+/* input{
+    width: 350px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.92;
+    background-color: none;
+    border-bottom: solid darkblue 6px;
+
+} */
+/* button{
+    height: 30px;
+    width: 90px;
+    font-size: 20px;
+    cursor: pointer;
+  
+}  */
+/* button:hover{
+    background-color: black;
+    color: blanchedalmond;
+
+} */ 
